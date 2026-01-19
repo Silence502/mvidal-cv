@@ -2,6 +2,7 @@ import { Component, ChangeDetectionStrategy, input } from '@angular/core';
 
 @Component({
   selector: 'app-skills',
+  standalone: true,
   template: `
     <section class="py-20 bg-slate-50" id="skills">
       <div class="max-w-5xl mx-auto px-6">

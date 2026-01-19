@@ -2,6 +2,7 @@ import { Component, ChangeDetectionStrategy, input } from '@angular/core';
 
 @Component({
   selector: 'app-footer',
+  standalone: true,
   template: `
     <footer class="bg-slate-900 text-slate-300 py-12">
       <div class="max-w-5xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-6">

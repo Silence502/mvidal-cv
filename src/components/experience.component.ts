@@ -2,6 +2,7 @@ import { Component, ChangeDetectionStrategy, input } from '@angular/core';
 
 @Component({
   selector: 'app-experience',
+  standalone: true,
   template: `
     <section class="py-20 bg-white" id="experience">
       <div class="max-w-5xl mx-auto px-6">

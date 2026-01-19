@@ -2,6 +2,7 @@ import { Component, ChangeDetectionStrategy, input } from '@angular/core';
 
 @Component({
   selector: 'app-hero',
+  standalone: true,
   template: `
     <section class="bg-white border-b border-slate-200">
       <div class="max-w-5xl mx-auto px-6 py-20 md:py-32">
