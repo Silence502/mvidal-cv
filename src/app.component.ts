@@ -15,7 +15,6 @@ import { FooterComponent } from './components/footer.component';
     ExperienceComponent,
     SkillsComponent,
     EducationInterestsComponent,
-    ContactComponent,
     FooterComponent
   ],
   template: `

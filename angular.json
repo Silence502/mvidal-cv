@@ -23,8 +23,7 @@
                 "glob": "**/*",
                 "input": "src/assets",
                 "output": "/assets"
-              },
-              "src/assets"
+              }
             ]
           },
           "configurations": {
