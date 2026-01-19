@@ -4,9 +4,9 @@ export const RESUME_DATA = {
     role: 'Développeur Full Stack',
     location: 'France',
     email: 'mickaelvidal@gmail.com',
-    phone: '06 00 00 00 00',
+    phone: '07 81 77 32 05',
     linkedin: 'linkedin.com/in/mickael-vidal',
-    summary: 'Profil technique passionné par l’innovation et l’IA. Une approche curieuse et analytique ("Geek" dans l’âme) mise au service de la résolution de problèmes complexes.'
+    summary: 'Développeur passionné par l\'innovation et l\'IA. Ma soif d\'apprendre se traduit par une veille technique constante, me permettant d\'apporter une approche curieuse et méthodique face aux problèmes complexes.'
   },
   experience: [
     {
@@ -105,12 +105,12 @@ export const RESUME_DATA = {
     }
   ],
   skills: {
-    backend: ['Java (J2EE)', 'PHP (Symfony)', 'Python', 'SQL Server', 'MySQL'],
+    backend: ['Java (J2EE)', 'Express JS', 'PHP (Symfony)', 'Python', 'SQL Server', 'MySQL'],
     frontend: ['JavaScript', 'Vue.js 3', 'Angular', 'TypeScript', 'PrimeVue', 'HTML5/CSS3'],
     testing: ['Cypress (TNR, E2E)', 'Tests Unitaires'],
     tools: ['Suite JetBrains', 'Git', 'Docker', 'WordPress', 'Linux/Windows/macOS'],
     ai: ['Prompt Engineering', 'Gemini Pro', 'Claude Code', 'ChatGPT'],
-    gamedev: ['Godot 4', 'GDScript']
+    gamedev: ['Godot 4', 'GDScript', 'Phaser.io']
   },
   interests: [
     {

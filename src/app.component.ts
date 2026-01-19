@@ -38,7 +38,7 @@ import { FooterComponent } from './components/footer.component';
         [interests]="data.interests"
       ></app-education-interests>
 
-      <app-contact></app-contact>
+<!--      <app-contact></app-contact>-->
 
       <app-footer
         [name]="data.profile.name"

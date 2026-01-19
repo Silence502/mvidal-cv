@@ -12,12 +12,20 @@
         "build": {
           "builder": "@angular/build:application",
           "options": {
+            "browser": "index.tsx",
             "outputPath": {
               "base": "./dist",
               "browser": "."
             },
-            "browser": "index.tsx",
-            "tsConfig": "tsconfig.json"
+            "tsConfig": "tsconfig.json",
+            "assets": [
+              {
+                "glob": "**/*",
+                "input": "src/assets",
+                "output": "/assets"
+              },
+              "src/assets"
+            ]
           },
           "configurations": {
             "production": {
@@ -48,5 +56,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "6512327d-0eac-4c70-b58f-7ad856892eec"
   }
 }
