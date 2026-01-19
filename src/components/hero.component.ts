@@ -28,7 +28,7 @@ import { Component, ChangeDetectionStrategy, input } from '@angular/core';
               <a [href]="'https://' + linkedin()" target="_blank" class="inline-flex items-center px-6 py-3 rounded-lg border border-slate-300 text-slate-700 font-medium hover:bg-slate-50 transition-colors">
                 LinkedIn
               </a>
-              <a href="Mickael_Vidal_CV.pdf" target="_blank" class="inline-flex items-center gap-2 px-6 py-3 rounded-lg border border-slate-300 text-slate-700 font-medium hover:bg-slate-50 transition-colors">
+              <a href="https://drive.google.com/uc?export=download&id=1bkjYlp3zIzVD-8CQeWWgb7fkXdiceseo" target="_blank" class="inline-flex items-center gap-2 px-6 py-3 rounded-lg border border-slate-300 text-slate-700 font-medium hover:bg-slate-50 transition-colors">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
                   <path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3" />
                 </svg>
